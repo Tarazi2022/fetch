@@ -1,0 +1,20 @@
+await fetch("https://www.elgiganten.se/cxorchestrator/se/api?appMode=b2c&user=anonymous&operationName=getStoresByLocationWithProduct&variables=%7B%22articleNumber%22%3A%2345097%22%2C%22latitude%22%3Anull%2C%22longitude%22%3Anull%2C%22myStoreId%22%3A%222001%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%226a2d3941da4ceb0d6e7bb1254fa3ad1c0e3668ffb333df9b194b19f7436047af%22%7D%7D", {
+    "credentials": "include",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:105.0) Gecko/20100101 Firefox/105.0",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "sv-SE,sv;q=0.8,en-US;q=0.5,en;q=0.3",
+        "x-is-anonymous": "true",
+        "Authorization": "",
+        "X-Authorization": "",
+        "X-App-Mode": "b2c",
+        "X-App-Checkout": "false",
+        "x-instana-t": "1ce325ad2b18da6a",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin"
+    },
+    "referrer": "https://www.elgiganten.se/product/gaming/spelkonsoler-tillbehor/playstation/playstation-konsol/playstation-5-2021/345097",
+    "method": "GET",
+    "mode": "cors"
+});
